@@ -1,13 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+<script src="https://kit.fontawesome.com/b4fa393305.js" crossorigin="anonymous"></script>
+
+<!---TITULO/ENCABEZADO---->
+<div= "main">
+  <header id="header">
+    <div class="logo">
+  <img id="header-img" src="https://cdn.xxl.thumbs.canstockphoto.com/guitar-logo-the-logo-of-a-classical-variety-guitar-illustration_csp48709528.jpg"></img>
+    </div>
+  
+ <!-----BARRA DE REDIRECCIONAMIENTO--->
+  
+  <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Caracteristicas</a></li>
+        <li><a class="nav-link" href="#modelos">Modelos</a></li>
+        <li><a class="nav-link" href="#precios">Precios</a></li>
+      </ul>
+    </nav>
+</header>
+
+<!-----COOMIENZA EL BODY---->
+<div class="container subscribe">
+  <h2>Obras maestras, hechas artesanalmente</h2>
+  <!----FORMULARIO---->
+   <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input 
+           name="email"
+           id="email" 
+           type="email" 
+           placeholder="Coloca aquí tu correo"
+           required/>
+  <input id="submit" type="submit" value="empieza" class="btn"></input>
+  </form>
+</div>
+
+<!-----Productos--->
+<section id="features" class="container">
+  <div class="featured-wrapper">
+    <div class="featured-icon">
+     <i class="fas fa-music"></i>
+    </div>
+    <div class="featured-text">
+      <h3>Materiales premium</h3>
+      <p>Nuestras guitarras utilizan la madera mas resistente que se obtiene localmente.</p>
+  </div>
+  </div>
+  
+   <div class="featured-wrapper">
+    <div class="featured-icon">
+     <i class="fas fa-music"></i>
+    </div>
+    <div class="featured-text">
+      <h3>Entrega rápida</h3>
+      <p>Nos aseguramos de que reciba su guitarra tan pronto como hayamos terminado de hacerlo. También proporcionamos devoluciones gratuitas si no está satisfecho.</p>
+  </div>
+  </div>
+  
+   <div class="featured-wrapper">
+    <div class="featured-icon">
+     <i class="fas fa-music"></i>
+    </div>
+    <div class="featured-text">
+      <h3>Calidad asegurada</h3>
+      <p>Por cada compra que realice, nos aseguraremos de que no haya daños o fallas y verificaremos y probaremos el tono de su instrumento.</p>
+  </div>
+  </div>  
+</section>
+
+<!---VIDEO--->
+<section id="modelos">
+ <iframe 
+         id="video" 
+         width="560" 
+         height="315" 
+         src="https://www.youtube.com/watch?v=Zh4A6YsdL9Q&list=RDZh4A6YsdL9Q&start_radio=1" 
+         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+         allowfullscreen>
+  </iframe>
+</section>
+
+<!----PRECIOS--->
+<section id="precios">
+  <div class="container pricing-wrapper">
+    <div class="pricing-box"> 
+      <h4>GUITARRA CLASICA DE CONCIERTO</h4>
+      <p class="precing">5000 USD<p>
+      <p>Lorem ipsum.</p>
+      <p>Lorem ipsum.</p>
+      <p>Lorem ipsum dolor.</p>
+      <p>Lorem ipsum.</p>
+      <a href="" class="btn">Select</a>
+    </div>
     
-    <h1>Hello world</h1>
-</body>
-</html>
+     <div class="container pricing-wrapper">
+    <div class="pricing-box"> 
+      <h4>GUITARRA CRIOLLA</h4>
+      <p class="precing">4000 USD<p>
+      <p>Lorem ipsum.</p>
+      <p>Lorem ipsum.</p>
+      <p>Lorem ipsum dolor.</p>
+      <p>Lorem ipsum.</p>
+      <a href="" class="btn">Select</a>
+    </div>
+       
+        <div class="container pricing-wrapper">
+    <div class="pricing-box"> 
+      <h4>GUITARRA FLAMENCA</h4>
+      <p class="precing">3000 USD<p>
+      <p>Suena igual a la trompeta.</p>
+      <p>Perfecto para bandas de Jazz.</p>
+      <p>Lorem ipsum dolor.</p>
+      <p>Lorem ipsum.</p>
+      <a href="" class="btn">Select</a>
+    </div>      
+  </div>
+</section>
+
+    <footer> 
+      <div class="footer-nav">
+        <ul>
+          <li><a href="">Privacidad</li>
+          <li><a href="">Condiciones de uso</li>
+          <li><a href="">Contactanos</li>
+        </ul>
+      </div>
+      <div class="footer-copyright">Guitarras clasicas. Derechos reservados, 2019°</div>
+    </footer>
+  </div>
